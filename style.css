@@ -1,0 +1,33 @@
+body,html{
+    margin: 0;
+}
+#div {
+    border: 10px solid black;
+    background-image: url(bgGradient.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;      
+    box-sizing: border-box;
+    height: 100vh;
+}
+#div h1 {
+    margin: 20px 0;
+    color: rgb(216, 154, 252);
+}
+#div p {
+    font-size: 50px;
+    color: white;
+    margin: 20px 0;
+}
+#div button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: violet;
+    border: 1px solid crimson;
+    border-radius: 50px;
+}
